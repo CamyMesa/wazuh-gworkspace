@@ -48,13 +48,15 @@ This Wazuh wodle integrates **all Google Workspace audit events**, including:
 What if I have several Google Workspace tenants?
 Just follow the installation procedure several times. So:
 
-Create a service account in each tenant
-Create separate directories
+- Create a service account in each tenant
+
+- Create separate directories
 /var/ossec/wodles/gworkspace-tenant-A/
 /var/ossec/wodles/gworkspace-tenant-B/
 etc
-create the respective service accounts, and place them in the service_account_key.json of their directories.
-in ossec.conf create separate <wodle>entries, where the <command>is changed:
+
+- Create the respective service accounts, and place them in the service_account_key.json of their directories.
+- In ossec.conf create separate <wodle> entries, where the <command> is changed:
  
 
 ```bash
