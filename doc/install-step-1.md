@@ -64,5 +64,3 @@ Depending on your MFA policies you may also need to change other OrgUnit-wide se
 
 Hope you kept the JSON file containing the key of the GCP service account, you will use it in the [next step](/doc/install-step-2.md).
 
-![screenshot of user settings](/doc/google%20user%20settings.png)
-
