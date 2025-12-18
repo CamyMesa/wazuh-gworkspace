@@ -74,7 +74,7 @@ Add this wodle configuration to `/var/ossec/etc/ossec.conf` to ensure that the w
   <wodle name="command">
     <disabled>no</disabled>
     <tag>gworkspace</tag>
-    <command>/var/ossec/wodles/gworkspace/wodle/gworkspac -a all -o 2</command>
+    <command>/var/ossec/wodles/gworkspace/wodle/gworkspace -a all -o 2</command>
     <interval>10m</interval>
     <ignore_output>no</ignore_output>
     <run_on_start>yes</run_on_start>
